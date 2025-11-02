@@ -724,6 +724,162 @@ export const programData: ProgramData = {
               }
             }
           ]
+        },
+        {
+          moduleId: "handbook_m4",
+          moduleTitle: "Module 4: Teacher Operation Handbook Knowledge Check",
+          steps: [
+            {
+              stepId: "h4_q1",
+              stepTitle: "Knowledge Check Q1",
+              type: "quiz",
+              quiz: {
+                question: "According to Part 1 of the handbook, what is the primary purpose of utilizing **Breakout Rooms** during a Real-time Interaction (Synchronous) session?",
+                options: [
+                  { text: "Providing immediate opportunities for learners to ask questions to the instructor.", isCorrect: false },
+                  { text: "Managing the speaking order and preventing simultaneous talking in large groups.", isCorrect: false },
+                  { text: "Dividing the class into small groups for in-depth discussion or collaborative teamwork.", isCorrect: true },
+                  { text: "Offering flexibility for learners with different schedules and learning speeds.", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! Breakout rooms are for dividing the class into small groups for in-depth discussion or collaborative teamwork.", incorrect: "Incorrect. Please review Part 1, A. Real-time Interaction (Synchronous) in the handbook." }
+              }
+            },
+            {
+              stepId: "h4_q2",
+              stepTitle: "Knowledge Check Q2",
+              type: "quiz",
+              quiz: {
+                question: "Which of the following is explicitly listed in the handbook as a core purpose of the **Flexible Mode of Interaction (Asynchronous)**?",
+                options: [
+                  { text: "Encouraging dynamic discussions and constructive debates.", isCorrect: false },
+                  { text: "Providing immediate opportunities for learners to ask questions and receive real-time feedback.", isCorrect: false },
+                  { text: "Allowing learners time to formulate thoughtful responses and engage in detailed exchanges.", isCorrect: true },
+                  { text: "Reiterating etiquette rules and displaying them on a presentation slide.", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! The flexible mode allows learners time to formulate thoughtful responses.", incorrect: "Incorrect. Please review Part 1, B. Flexible Mode of Interaction (Asynchronous) in the handbook." }
+              }
+            },
+            {
+              stepId: "h4_q3",
+              stepTitle: "Knowledge Check Q3",
+              type: "quiz",
+              quiz: {
+                question: "What is the primary goal of requiring student teams to create a **'Group Contract'** during intercultural collaboration?",
+                options: [
+                  { text: "To humanize team members and build rapport through non-academic sharing.", isCorrect: false },
+                  { text: "To proactively establish norms, expectations, and accountability for the team's work.", isCorrect: true },
+                  { text: "To ensure cultural, national, or disciplinary diversity within each student team.", isCorrect: false },
+                  { text: "To teach key intercultural communication models, such as high-context vs. low-context.", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! The Group Contract is to proactively establish norms, expectations, and accountability.", incorrect: "Incorrect. Please review Part 2, A. Facilitating Intercultural Collaboration in the handbook." }
+              }
+            },
+            {
+              stepId: "h4_q4",
+              stepTitle: "Knowledge Check Q4",
+              type: "quiz",
+              quiz: {
+                question: "In the **5-Step Mediation Process** for conflict resolution, what is the *second* step the instructor should take after 'Non-Judgmental Listening'?",
+                options: [
+                  { text: "Facilitate a controlled Joint Meeting, emphasizing 'I' statements.", isCorrect: false },
+                  { text: "Document and Follow Up on the agreed-upon resolution.", isCorrect: false },
+                  { text: "Identify the Core Cause by analyzing the root of the conflict.", isCorrect: true },
+                  { text: "Guide the team to collaboratively develop a Future-Oriented Solution.", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! The second step is to identify the core cause of the conflict.", incorrect: "Incorrect. Please review Part 2, B. Conflict Resolution Strategies in the handbook." }
+              }
+            },
+            {
+              stepId: "h4_q5",
+              stepTitle: "Knowledge Check Q5",
+              type: "quiz",
+              quiz: {
+                question: "Which sequence correctly follows the handbook's Structured Questioning Skills technique for prompting critical thinking?",
+                options: [
+                  { text: "Act (Now What?), Identify (What?), Analyze (So What?)", isCorrect: false },
+                  { text: "Identify (What?), Analyze (So What?), Act (Now What?)", isCorrect: true },
+                  { text: "Analyze (So What?), Act (Now What?), Identify (What?)", isCorrect: false },
+                  { text: "Probing Questions, The 5 Whys, Bloom's Taxonomy Questioning", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! The sequence is Identify (What?), Analyze (So What?), Act (Now What?).", incorrect: "Incorrect. Please review the handbook for the Structured Questioning Skills technique." }
+              }
+            },
+            {
+              stepId: "h4_q6",
+              stepTitle: "Knowledge Check Q6",
+              type: "quiz",
+              quiz: {
+                question: "What activity is required to immediately follow the **'15-Minute Rule'** for continuous lecture time, as described in 'Collaborative Communication'?",
+                options: [
+                  { text: "Students must complete a final individual essay or report for assessment.", isCorrect: false },
+                  { text: "An interactive activity, such as a breakout room discussion, a poll, or a quick Q&A.", isCorrect: true },
+                  { text: "Teams must create a formal Group Contract specifying roles and responsibilities.", isCorrect: false },
+                  { text: "The instructor must provide comprehensive, individualized commentary on assignments.", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! An interactive activity must follow 15 minutes of lecture time.", incorrect: "Incorrect. Please review the handbook's section on the '15-Minute Rule'." }
+              }
+            },
+            {
+              stepId: "h4_q7",
+              stepTitle: "Knowledge Check Q7",
+              type: "quiz",
+              quiz: {
+                question: "The COIL Module's **Phase 1: Foundation & Onboarding** has a primary goal of achieving which three outcomes?",
+                options: [
+                  { text: "Finalizing the project and conducting a Presentation Assessment.", isCorrect: false },
+                  { text: "Conducting joint research and submitting a data analysis progress report.", isCorrect: false },
+                  { text: "Establishing core course knowledge, setting up cross-cultural teams, and building trust.", isCorrect: true },
+                  { text: "Synthesizing academic knowledge and completing a peer/team contribution review.", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! The goal is to establish core course knowledge, set up cross-cultural teams, and build trust.", incorrect: "Incorrect. Please review the handbook's section on the COIL Module Structure." }
+              }
+            },
+            {
+              stepId: "h4_q8",
+              stepTitle: "Knowledge Check Q8",
+              type: "quiz",
+              quiz: {
+                question: "According to the handbook, what is the expected pacing strategy for **Phase 2: In-depth Collaborative Project**?",
+                options: [
+                  { text: "Individual and team assessments focused on final product delivery.", isCorrect: false },
+                  { text: "Focused on initial synchronous sessions and foundational academic tasks.", isCorrect: false },
+                  { text: "Highly flexible core with no scheduled checkpoints.", isCorrect: false },
+                  { text: "Weekly with clearly defined checkpoints and intermediate deliverables (Milestones).", isCorrect: true }
+                ],
+                feedback: { correct: "Correct! The expected pacing is weekly with clearly defined checkpoints and intermediate deliverables.", incorrect: "Incorrect. Please review the handbook's section on Pacing for Phase 2." }
+              }
+            },
+            {
+              stepId: "h4_q9",
+              stepTitle: "Knowledge Check Q9",
+              type: "quiz",
+              quiz: {
+                question: "What is the specific purpose of instructing synchronous participants to **Use the 'Raise Hand' feature**?",
+                options: [
+                  { text: "To divide the class into small groups for in-depth discussion.", isCorrect: false },
+                  { text: "To create a lively atmosphere by providing quick feedback via the chat feature.", isCorrect: false },
+                  { text: "To manage the speaking order and prevent simultaneous talking.", isCorrect: true },
+                  { text: "To check quick comprehension, gather opinions, or introduce topics via a voting system.", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! The 'Raise Hand' feature is used to manage the speaking order.", incorrect: "Incorrect. Please review Part 1, A. Real-time Interaction (Synchronous) in the handbook." }
+              }
+            },
+            {
+              stepId: "h4_q10",
+              stepTitle: "Knowledge Check Q10",
+              type: "quiz",
+              quiz: {
+                question: "What is the recommended method for outlining clear weekly tasks to establish structure in **Asynchronous Learning**?",
+                options: [
+                  { text: "Actively monitor discussions and model high-quality responses.", isCorrect: false },
+                  { text: "Providing a simple, scannable checklist or agenda.", isCorrect: true },
+                  { text: "Replacing long lectures with short, focused micro-lectures.", isCorrect: false },
+                  { text: "Instructing students to use the 'Mute' feature to minimize background noise.", isCorrect: false }
+                ],
+                feedback: { correct: "Correct! The recommended method is providing a simple, scannable checklist or agenda.", incorrect: "Incorrect. Please review Part 1, B. Flexible Mode of Interaction (Asynchronous) in the handbook." }
+              }
+            }
+          ]
         }
       ]
     },
