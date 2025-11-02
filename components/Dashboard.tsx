@@ -26,6 +26,14 @@ const Dashboard: React.FC<DashboardProps> = ({ onGoHome }) => {
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
   useEffect(() => {
+    window.scroll({
+  top: 0,
+  left: 0,
+  behavior: 'smooth'
+});
+  }, [])
+
+  useEffect(() => {
     const observer = new IntersectionObserver(
         (entries) => {
             const intersectingEntry = entries.find(entry => entry.isIntersecting);
